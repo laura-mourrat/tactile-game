@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🎰 Roulette</title>
+    <link rel="stylesheet" href="/src/SCSS/rouletteGame.scss" />
+</head>
+
+<body>
+    <main class="roulette-container">
+        <h1>A toi de jouer</h1>
+        <div class="wheel" id="wheel">
+            <span style="--i:0;">💰</span>
+            <span style="--i:1;">🎁</span>
+            <span style="--i:2;">❌</span>
+            <span style="--i:3;">🎉</span>
+            <span style="--i:4;">🥇</span>
+            <span style="--i:5;">🧨</span>
+            <span style="--i:6;">🔥</span>
+            <span style="--i:7;">🔁</span>
+        </div>
+        <div class="arrow">▲</div>
+        <div id="big-emoji"></div>
+
+        <button id="spin">🎯 Lancer</button>
+
+        <a href="/" class="back-btn">⬅ Retour</a>
+
+        <!-- Message de resultat-->
+        <div id="result" class="result-message"></div>
+
+        <script type="module" src="./script.js"></script>
+
+    </main>
+</body>
+
+</html>
