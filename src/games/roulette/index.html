@@ -9,8 +9,19 @@
 </head>
 
 <body>
+
+    <div id="email-modal">
+        <form>
+            <h2>🎯 Entre ton e-mail pour jouer</h2>
+            <input type="email" id="email-input" placeholder="exemple@mail.com" required />
+            <button type="button" id="validate-email">Valider</button>
+            <div class="error" id="email-error"></div>
+        </form>
+    </div>
+
     <main class="roulette-container">
         <h1>A toi de jouer</h1>
+
         <div class="wheel" id="wheel">
             <span style="--i:0;">💰</span>
             <span style="--i:1;">🎁</span>
